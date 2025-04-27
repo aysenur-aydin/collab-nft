@@ -1,0 +1,16 @@
+export const COLLECTION_ID =
+  "0x379df149ef38e6111968cd4dbe866c34006feb4b6eb5ae0a511f2825ed36251e";
+
+export const PACKAGE_ID =
+  "0x42b7382eeb3ace708b353df521d846ac1660553ee3bb382c32e8260d18944f46";
+
+export const EXAMPLE_NFT_TYPE =
+  "0x42b7382eeb3ace708b353df521d846ac1660553ee3bb382c32e8260d18944f46::examplenft::ExampleNFT";
+
+export const MINT_CAP_TYPE =
+  "0x42b7382eeb3ace708b353df521d846ac1660553ee3bb382c32e8260d18944f46::cap::MintCap";
+
+export const TREASURY_ADDRESS =
+  "0x947838272f0152c966bef32ae3d241da4d913cf833c11145a3ca04a85cd9a196";
+
+// "0xd1cb71c7e5990542ae1a0c4f403c6e6edbf4e37a076bacde40b1b0ce4906fd01";
