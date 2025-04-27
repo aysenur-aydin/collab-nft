@@ -1,6 +1,5 @@
 import {
   Container,
-  Divider,
   Stack,
   Typography,
   TextField,
@@ -21,7 +20,6 @@ import {
 // import { toast } from "react-toastify";
 
 //Components
-import ImageUploader from "../component/imageupload";
 import AvailableNfts from "../component/user/AvailableNfts";
 import MintNft from "../component/user/MintNft";
 import UserNfts from "../component/user/UserNfts";

@@ -9,7 +9,6 @@ import {
 import { useSignAndExecuteTransaction, useSuiClient } from "@mysten/dapp-kit";
 import { useState, useRef } from "react";
 import { createNft } from "../../utils/contract";
-import ImageUploader from "../imageupload";
 import CanvasComponent from "../canvasComponent";
 
 function CreateNft({ mintCapId }: { mintCapId: string }) {
@@ -24,7 +23,7 @@ function CreateNft({ mintCapId }: { mintCapId: string }) {
 
   // ImgBB API anahtarı (imageupload.tsx'ten alındı)
   const API_KEY = "ab4b7e6bb022881202ee2b0dd3fbfc2c";
-
+  console.log(isPngCreated);
   const client = useSuiClient();
   const { mutate: createNftTransaction } = useSignAndExecuteTransaction({
     execute: async ({ bytes, signature }) =>

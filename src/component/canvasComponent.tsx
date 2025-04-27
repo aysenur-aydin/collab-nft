@@ -2,6 +2,7 @@ import "../canvasComponent.css";
 import { useState, useRef, useImperativeHandle, forwardRef } from "react";
 
 const CanvasComponent = forwardRef((props, ref) => {
+  console.log(props);
   // Genişletilmiş renk paleti
   const colors = [
     // Ana renkler

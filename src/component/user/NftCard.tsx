@@ -10,15 +10,12 @@ import {
   IconButton,
   useTheme,
   alpha,
-  CardActionArea,
-  Zoom,
   Fade,
   Divider,
   Skeleton,
 } from "@mui/material";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { useState } from "react";
 
 function NftCard({ nft }: { nft: any }) {

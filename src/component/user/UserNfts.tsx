@@ -6,23 +6,19 @@ import NftCard from "./NftCard";
 //Css
 import {
   Box,
-  Container,
   Stack,
   Typography,
-  CircularProgress,
   Grid,
   useTheme,
   alpha,
   Alert,
   Skeleton,
-  Divider,
   Fab,
   Zoom,
   Button,
 } from "@mui/material";
 import CollectionsBookmarkIcon from "@mui/icons-material/CollectionsBookmark";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
-import AddIcon from "@mui/icons-material/Add";
 import FilterListIcon from "@mui/icons-material/FilterList";
 
 function UserNfts() {
@@ -30,7 +26,7 @@ function UserNfts() {
   const theme = useTheme();
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
-
+  console.log(refetchNftData);
   // Scroll pozisyonunu izleme
   useEffect(() => {
     const handleScroll = () => {

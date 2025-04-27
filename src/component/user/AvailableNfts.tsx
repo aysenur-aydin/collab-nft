@@ -3,11 +3,9 @@ import {
   Typography,
   Stack,
   Paper,
-  CircularProgress,
   useTheme,
   alpha,
   Skeleton,
-  Divider,
   Chip,
 } from "@mui/material";
 import { useCollectionData } from "../../hooks/useCollectionData";
@@ -19,7 +17,7 @@ function AvailableNfts() {
     useCollectionData();
   const isLoading = !nftsCount && nftsCount !== 0; // Veri yüklenene kadar loading göster
   const theme = useTheme();
-
+  console.log(refetchCollectionData);
   return (
     <Box>
       <Stack direction="row" spacing={2} alignItems="center" mb={3}>

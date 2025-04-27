@@ -2,7 +2,7 @@ import { useCurrentAccount, useSuiClientQuery } from "@mysten/dapp-kit";
 import { getFullnodeUrl } from "@mysten/sui/client";
 import { SuiClient } from "@mysten/sui/client";
 import { useQuery } from "@tanstack/react-query";
-
+console.log(useSuiClientQuery);
 //Utils
 import { extractNFTData } from "../utils/extractNftData";
 

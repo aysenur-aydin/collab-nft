@@ -1,7 +1,6 @@
 import { useCurrentAccount } from "@mysten/dapp-kit";
 import {
   Container,
-  Divider,
   Stack,
   Typography,
   Paper,

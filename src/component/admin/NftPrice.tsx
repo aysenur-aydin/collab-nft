@@ -1,8 +1,4 @@
-import {
-  useSignAndExecuteTransaction,
-  useSuiClient,
-  useSuiClientQuery,
-} from "@mysten/dapp-kit";
+import { useSignAndExecuteTransaction, useSuiClient } from "@mysten/dapp-kit";
 import { useCollectionData } from "../../hooks/useCollectionData";
 import { Box, Button, TextField, Typography } from "@mui/material";
 import { Stack } from "@mui/material";
